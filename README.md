@@ -5,7 +5,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in : https://ai.studio/apps/8f9dab18-4a3e-4ce3-bff6-34725d4eb2fc
+View your app in : https://civicfix-c.ai.studio/admin/critical-issues
 
 ## Run Locally
 
