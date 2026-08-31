@@ -1,0 +1,6 @@
+{
+  "name": "CivicFix - Real-Time Civic Issue Management Platform",
+  "description": "Real-time civic issue reporting and management platform with Smart Priority Engine, live tracking, and admin command center.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
