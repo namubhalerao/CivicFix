@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* CivicFix Theme Integration for Botpress Webchat */
+#bp-webchat,
+.bp-webchat-container,
+div[class*="bp-webchat"],
+div[id*="bp-webchat"] {
+  z-index: 9999 !important;
+}
+
+/* Ensure floating chat trigger sits nicely above content without obscuring footer */
+.bpFabContainer,
+div[class*="bpFab"] {
+  bottom: 24px !important;
+  right: 24px !important;
+  z-index: 9999 !important;
+}
+
+@media (max-width: 640px) {
+  .bpFabContainer,
+  div[class*="bpFab"] {
+    bottom: 18px !important;
+    right: 18px !important;
+  }
+}
